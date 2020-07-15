@@ -45,3 +45,30 @@
 
 #challenge 4
 
+# number = int(input("please give me a number"))
+
+# list = range(1, number + 1);
+# divisors = [];
+
+# for element in list: 
+#   if (number % element) == 0: 
+#     divisors.append(element)
+
+# print(divisors)
+
+#challenge 5
+
+listOne = [2, 7, 9, 11, 5, 20];
+listTwo = range(1, 30);
+comparison = [];
+
+for element in listOne:
+  if element in listTwo: 
+    comparison.append(element)
+
+print(comparison)
+
+
+
+
+
