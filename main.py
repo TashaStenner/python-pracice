@@ -58,16 +58,28 @@
 
 #challenge 5
 
-listOne = [2, 7, 9, 11, 5, 20];
-listTwo = range(1, 30);
-comparison = [];
+# listOne = [2, 7, 9, 11, 5, 20];
+# listTwo = range(1, 30);
+# comparison = [];
 
-for element in listOne:
-  if element in listTwo: 
-    comparison.append(element)
+# for element in listOne:
+#   if element in listTwo: 
+#     comparison.append(element)
 
-print(comparison)
+# print(comparison)
 
+#challenge 6
+
+word = input("please give me a word");
+word = str(word);
+reverse = word[::-1];
+
+print(reverse);
+
+if word == reverse: 
+  print("your word is a paladrome")
+else: 
+  print("your word is not a paladrome")  
 
 
 
