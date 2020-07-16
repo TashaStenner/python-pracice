@@ -70,17 +70,20 @@
 
 #challenge 6
 
-word = input("please give me a word");
-word = str(word);
-reverse = word[::-1];
+# word = input("please give me a word");
+# word = str(word);
+# reverse = word[::-1];
 
-print(reverse);
+# print(reverse);
 
-if word == reverse: 
-  print("your word is a paladrome")
-else: 
-  print("your word is not a paladrome")  
+# if word == reverse: 
+#   print("your word is a paladrome")
+# else: 
+#   print("your word is not a paladrome")  
 
+#challenge 7
 
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+even = [number for number in a if number % 2 == 0]
 
 
